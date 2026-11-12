@@ -36,7 +36,7 @@ Nếu cài đặt lỗi do Python hoặc hệ điều hành chưa được một
 
 ## Notebook 01 — Data Understanding
 
-Notebook đầu tiên là [`notebooks/01_data_understanding.ipynb`](notebooks/01_data_understanding.ipynb). Nó kiểm tra dữ liệu thô và tạo các báo cáo trong `reports/`; không làm cleaning, merge modeling table, feature engineering hay train model.
+Notebook đầu tiên là [`notebooks/01_data_understanding.ipynb`](notebooks/01_data_understanding.ipynb). Nó kiểm tra dữ liệu thô và tạo các báo cáo trong `reports/understanding/`; không làm cleaning, merge modeling table, feature engineering hay train model.
 
 Chạy trong VS Code/Jupyter bằng **Run All**. Hoặc kiểm tra notebook từ PowerShell ở thư mục repo:
 
@@ -59,6 +59,14 @@ Thực hiện theo thứ tự; hãy xem kết quả EDA trước khi chốt các
 2. Sau khi xem EDA, mở [`notebooks/03_data_preprocessing.ipynb`](notebooks/03_data_preprocessing.ipynb) và tự bấm **Run All**. Notebook kiểm tra keys, ghép metadata cửa hàng, giá dầu và holiday events đã tổng hợp theo Date-Store. Nó lưu `train_processed.csv`, `test_processed.csv` và `transactions_history.csv` trong `data/processed/`, cùng các integrity reports trong `reports/preprocessing/`.
 
 Preprocessing giữ missing oil, không tạo lại các ngày 25/12 bị thiếu, và để transactions lịch sử riêng để tránh dùng số giao dịch cùng ngày làm feature dự báo sales. Các quyết định này được ghi trong notebook; dữ liệu trong `data/raw/` không bị ghi đè. File processed có thể lớn và notebook có thể cần thêm RAM khi tạo dữ liệu dẫn xuất.
+
+## Phase 3 - Validation Framework & Baseline
+
+[`notebooks/04_validation_baseline.ipynb`](notebooks/04_validation_baseline.ipynb) defines the fixed folds and integrity checks, then evaluates Seasonal Naive and Global LightGBM with recursive 16-day forecasts. It compares pooled OOF RMSLE and reports performance by horizon and family. The recorded reference scores are 0.573874 for Seasonal Naive and 0.472009 for Global LightGBM (17.75% pooled improvement). All later models use the same fixed fold dates.
+
+## Phase 4 - Feature Engineering
+
+[`notebooks/05_feature_engineering.ipynb`](notebooks/05_feature_engineering.ipynb) contains the full Stage 2 lag experiment pipeline: E1-E4, recursive validation, pooled/fold comparisons, family and horizon analysis, normalized feature importance, and final review. E1 has saved outputs; run E2, E3, and E4 individually after reviewing prior results. Avoid Run All because each experiment trains three LightGBM models. Keep the validation folds, model parameters, target transform, and recursive protocol fixed during feature ablations.
 
 ## Nguyên tắc thực nghiệm
 

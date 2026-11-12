@@ -1,0 +1,4 @@
+metric,value
+mean_fold_rmsle,0.5721284670556641
+pooled_oof_rmsle,0.5738741806720223
+total_oof_predictions,85536.0

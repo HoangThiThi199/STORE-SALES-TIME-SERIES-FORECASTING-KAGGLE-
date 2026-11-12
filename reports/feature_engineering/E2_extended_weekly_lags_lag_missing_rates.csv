@@ -1,0 +1,10 @@
+experiment,fold,feature,training_rows,missing_count,missing_rate
+E2_extended_weekly_lags,fold_1,lag_35,2273832,17820,0.007836990595611285
+E2_extended_weekly_lags,fold_1,lag_42,2273832,30294,0.013322884012539185
+E2_extended_weekly_lags,fold_1,lag_56,2273832,55242,0.024294670846394983
+E2_extended_weekly_lags,fold_2,lag_35,2869020,19602,0.0068322981366459624
+E2_extended_weekly_lags,fold_2,lag_42,2869020,32076,0.011180124223602485
+E2_extended_weekly_lags,fold_2,lag_56,2869020,57024,0.01987577639751553
+E2_extended_weekly_lags,fold_3,lag_35,2922480,19602,0.006707317073170732
+E2_extended_weekly_lags,fold_3,lag_42,2922480,32076,0.01097560975609756
+E2_extended_weekly_lags,fold_3,lag_56,2922480,57024,0.01951219512195122

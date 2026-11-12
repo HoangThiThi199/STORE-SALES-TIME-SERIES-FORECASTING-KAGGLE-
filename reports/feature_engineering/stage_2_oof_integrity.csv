@@ -1,0 +1,5 @@
+experiment,row_count_correct,keys_match_E1,actuals_match_E1,keys_unique,predictions_finite_nonnegative
+E1_recent_lags,True,True,True,True,True
+E2_extended_weekly_lags,True,True,True,True,True
+E3_annual_weekly_lag,True,True,True,True,True
+E4_combined_advanced_lags,True,True,True,True,True

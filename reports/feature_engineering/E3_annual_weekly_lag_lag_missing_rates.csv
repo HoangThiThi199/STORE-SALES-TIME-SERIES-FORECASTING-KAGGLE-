@@ -1,0 +1,4 @@
+experiment,fold,feature,training_rows,missing_count,missing_rate
+E3_annual_weekly_lag,fold_1,lag_364,2273832,600534,0.26410658307210033
+E3_annual_weekly_lag,fold_2,lag_364,2869020,602316,0.20993788819875778
+E3_annual_weekly_lag,fold_3,lag_364,2922480,602316,0.20609756097560974

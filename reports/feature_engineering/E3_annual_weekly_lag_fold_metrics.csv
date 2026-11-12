@@ -1,0 +1,4 @@
+experiment,fold,train_end,valid_start,valid_end,n_predictions,rmsle
+E3_annual_weekly_lag,fold_1,2016-07-30,2016-07-31,2016-08-15,28512,0.46673707315877616
+E3_annual_weekly_lag,fold_2,2017-06-30,2017-07-01,2017-07-16,28512,0.3858956610956531
+E3_annual_weekly_lag,fold_3,2017-07-30,2017-07-31,2017-08-15,28512,0.42448117931383456
