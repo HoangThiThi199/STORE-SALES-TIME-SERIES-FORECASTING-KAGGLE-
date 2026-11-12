@@ -1,0 +1,7 @@
+,dataset,rows,columns,memory_MB
+0,train,3000888,6,168.16
+1,test,28512,5,1.38
+2,stores,54,5,0.0
+3,oil,1218,2,0.02
+4,holidays,350,6,0.03
+5,transactions,83488,3,1.91

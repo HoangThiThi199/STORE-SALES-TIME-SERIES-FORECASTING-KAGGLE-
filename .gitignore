@@ -1,0 +1,20 @@
+﻿# Dataset - do not upload to GitHub
+data/
+
+# Generated artifacts and models
+artifacts/
+models/
+submissions/
+
+# Python environment
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Secrets
+.env
+secrets.env

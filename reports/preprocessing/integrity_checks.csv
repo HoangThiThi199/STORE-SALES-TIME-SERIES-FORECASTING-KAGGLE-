@@ -1,0 +1,9 @@
+check,passed
+train_row_count_preserved,True
+test_row_count_preserved,True
+train_business_key_unique,True
+test_business_key_unique,True
+train_series_count_preserved,True
+holiday_date_store_unique,True
+oil_missing_retained,True
+transactions_not_joined_as_same_day_feature,True

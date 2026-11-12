@@ -1,0 +1,2 @@
+calendar_days_in_range,observed_train_dates,missing_calendar_dates,missing_dates,store_family_series,incomplete_series_on_observed_dates,dates_with_unexpected_series_count
+1688,1684,4,"2013-12-25, 2014-12-25, 2015-12-25, 2016-12-25",1782,0,0

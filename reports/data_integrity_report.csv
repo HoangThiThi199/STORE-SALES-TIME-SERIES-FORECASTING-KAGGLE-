@@ -1,0 +1,15 @@
+check,passed
+all_7_required_files_exist,True
+train_date_is_datetime,True
+test_date_is_datetime,True
+train_business_key_unique,True
+test_business_key_unique,True
+store_key_unique,True
+oil_date_unique,True
+transaction_business_key_unique,True
+submission_id_unique,True
+submission_ids_match_test,True
+train_sales_non_negative,True
+expected_store_family_count,True
+all_train_dates_have_all_series,True
+all_series_cover_observed_train_dates,True

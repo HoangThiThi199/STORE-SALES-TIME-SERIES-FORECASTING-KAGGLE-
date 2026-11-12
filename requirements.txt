@@ -1,0 +1,28 @@
+# Data handling
+pandas
+numpy
+scipy
+statsmodels
+scikit-learn
+
+# Visualization and notebooks
+matplotlib
+seaborn
+jupyterlab
+ipykernel
+nbconvert
+
+# Gradient-boosted and tree models
+lightgbm
+catboost
+xgboost
+
+# Deep learning and time-series models
+# These packages can make installation large; install from this file when setting up the full project.
+torch
+u8darts[torch]
+prophet
+
+# Explainability and experiment optimization
+shap
+optuna

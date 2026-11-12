@@ -1,0 +1,2 @@
+rows,start_date,end_date,unique_stores,unique_dates,store_date_key_unique,test_period_actual_transactions_available
+83488,2013-01-01,2017-08-15,54,1682,True,False

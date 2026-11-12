@@ -1,0 +1,14 @@
+dataset,duplicate_type,key_columns,duplicate_count
+train,exact_rows,all columns,0
+train,business_key,"date, store_nbr, family",0
+test,exact_rows,all columns,0
+test,business_key,"date, store_nbr, family",0
+stores,exact_rows,all columns,0
+stores,business_key,store_nbr,0
+oil,exact_rows,all columns,0
+oil,business_key,date,0
+holidays,exact_rows,all columns,0
+transactions,exact_rows,all columns,0
+transactions,business_key,"date, store_nbr",0
+sample_submission,exact_rows,all columns,0
+sample_submission,business_key,id,0

@@ -1,0 +1,10 @@
+check,count
+train store IDs absent from stores.csv,0
+test store IDs absent from stores.csv,0
+train families absent from test,0
+test families absent from train,0
+transaction store IDs absent from stores.csv,0
+oil dates overlapping train,1203
+oil dates overlapping test,12
+holiday event records on train dates,282
+holiday event records on test dates,1
